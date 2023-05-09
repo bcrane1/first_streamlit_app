@@ -49,7 +49,7 @@ streamlit.stop()
 #import snowflake.connector
 #Snowflake related functions
 def get_fruit_load_list():
-    with my_cnx.cursor() as my_cur
+    with my_cnx.cursor() as my_cur:
     my_cur.execute("select * from PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST")
     return my_cur.fetchall()
 
